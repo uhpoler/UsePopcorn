@@ -9,8 +9,8 @@ StarReting.propTypes = {
   maxRating: PropTypes.number,
   defaultRating: PropTypes.number,
   color: PropTypes.string,
-  size: PropTypes.number,
   className: PropTypes.string,
+  size: PropTypes.number,
   message: PropTypes.array,
   onSetRating: PropTypes.func,
 };
