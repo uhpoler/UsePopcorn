@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-
 import StarReting from "./StarRating";
 
 function Test() {
