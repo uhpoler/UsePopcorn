@@ -255,6 +255,20 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
 
   // if (imdbRating > 8) return <p>Great</p>;
 
+  // const [isTop, setIsTop] = useState(imdbRating > 8);
+  // console.log(isTop);
+  // useEffect(
+  //   function () {
+  //     setIsTop(imdbRating > 8);
+  //   },
+  //   [imdbRating]
+  // );
+
+  // const isTop = imdbRating > 8;
+  // console.log(isTop);
+
+  // const [avgRating, setAvgRating] = useState(0);
+
   function handleAdd() {
     const newWatchedMovie = {
       imdbRating: Number(imdbRating),
@@ -266,7 +280,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
       userRating,
     };
     onAddWatched(newWatchedMovie);
-    onCloseMovie();
+    // onCloseMovie();
   }
 
   useEffect(
